@@ -1,0 +1,22 @@
+{
+  "name": "educationapp",
+  "version": "1.0.0",
+  "description": "develop react education app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edilovaysky/educationApp.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Ed Ilovaysky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edilovaysky/educationApp/issues"
+  },
+  "homepage": "https://github.com/edilovaysky/educationApp#readme"
+}
