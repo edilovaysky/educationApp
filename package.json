@@ -4,7 +4,9 @@
   "description": "develop react education app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "build": "rimraf ./dist && webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,20 @@
   "bugs": {
     "url": "https://github.com/edilovaysky/educationApp/issues"
   },
-  "homepage": "https://github.com/edilovaysky/educationApp#readme"
+  "homepage": "https://github.com/edilovaysky/educationApp#readme",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "rimraf": "^2.6.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
 }
